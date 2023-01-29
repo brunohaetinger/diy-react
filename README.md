@@ -5,8 +5,13 @@ Build "React" from scratch to understand how it works.
 guide:
 https://pomb.us/build-your-own-react/
 
+# To Do
 
-# Step Zero
+- [ ] create useEffect hook
+
+# Steps
+
+## Step Zero
 
 ```jsx
 const element = <h1 title="foo">Hello</h1>
@@ -37,9 +42,25 @@ node.appendChild(text)
 container.appendChild(node)
 ```
 
-# Step I: The `createElement` Function
+## Step I: The `createElement` Function
 
-# Step II: The `render` Function
+## Step II: The `render` Function
 
+## Step III: Concurrent mode
 
+Rendering without blocking browser.
+
+## Step IV: Fibers
+
+Each fiber has a link to its first child, its next sibling and its parent.
+
+## Step V: Render and Commit Phases
+
+## Step VI: Reconciliation
+
+Compare the elements we receive on the render function to the last fiber tree we committed to the DOM.
+
+## Step VII: Function Components
+
+## Step VIII: Hooks
 
